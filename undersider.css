@@ -1,0 +1,555 @@
+/*Overordnet */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  background-color: #831e6d;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul :nth-child(2),
+ul :nth-child(3),
+ul :nth-child(4),
+ul :nth-child(5) {
+  color: #ff95f4;
+}
+
+/*web */
+
+.web {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.tekst_1 {
+  padding-top: 30px;
+  line-height: 1.5;
+}
+
+.tekst_1 h1 {
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  font-size: 30px;
+  color: #efe4bc;
+}
+
+.tekst_1 p {
+  font-family: sans-serif;
+  text-align: start;
+}
+
+.grundlæggende {
+  color: #ff95f4;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex p {
+  color: #efe4bc;
+  margin: auto;
+  width: 80%;
+}
+
+.link a {
+  color: #ff95f4;
+
+  padding: 10px;
+}
+
+.link {
+  padding-bottom: 20px;
+}
+
+.mobilbillede,
+.layoutbillede,
+.wireframebillede {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.mobil_flex {
+  display: flex;
+  flex-direction: column;
+}
+.mobil h1 {
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  color: #efe4bc;
+  padding-bottom: 20px;
+}
+.mobil p {
+  font-family: sans-serif;
+  color: #ff95f4;
+  width: 80%;
+  align-self: center;
+  line-height: 1.5;
+}
+
+.mobil img {
+  width: 80%;
+  margin: auto;
+}
+
+.billede_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout h1,
+.wireframe h1,
+.studiestart h1 {
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  color: #efe4bc;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.html_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.html_1 h1 {
+  padding-top: 20px;
+}
+
+.html_1 p {
+  align-self: center;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.css_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.css_1 h1 {
+  padding: 20px;
+}
+
+.css_1 p {
+  line-height: 1.5;
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+.studiestart img {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.studiestart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.studiestart p {
+  color: #ff95f4;
+  line-height: 1.5;
+  font-family: sans-serif;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.html_2,
+.css_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*ux*/
+
+img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.storyboard_skitse {
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  color: #efe4bc;
+  padding: 20px;
+}
+
+.uxbillede_1 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.uxtekst_2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.uxtekst_2 p {
+  color: #ff95f4;
+  line-height: 1.5;
+  font-family: sans-serif;
+  width: 80%;
+  padding-bottom: 20px;
+
+  align-self: center;
+}
+.uxtekst_2 h1 {
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  color: #efe4bc;
+  padding: 20px;
+}
+
+.uxbillede_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uxbillede_2 p {
+  color: #ff95f4;
+  line-height: 1.5;
+  font-family: sans-serif;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.uxtekst_3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.uxtekst_31,
+.uxtekst_32 {
+  display: flex;
+  flex-direction: column;
+}
+
+.uxtekst_3 h1 {
+  font-family: "Philosopher", sans-serif;
+  color: #efe4bc;
+  padding: 20px;
+  text-align: center;
+}
+.uxtekst_3 p {
+  color: #ff95f4;
+  line-height: 1.5;
+  font-family: sans-serif;
+  width: 80%;
+  padding-bottom: 20px;
+
+  align-self: center;
+}
+
+.uxtekst_4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uxtekst_4 h1 {
+  font-family: "Philosopher", sans-serif;
+  color: #efe4bc;
+  padding: 20px;
+}
+.uxtekst_4 p {
+  color: #ff95f4;
+  line-height: 1.5;
+  font-family: sans-serif;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+/*animation*/
+
+.animationtekst_1 h1 {
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  font-size: 30px;
+  color: #efe4bc;
+}
+.animationtekst_1 p {
+  color: #efe4bc;
+  line-height: 1.5;
+  font-family: sans-serif;
+  width: 80%;
+  padding-bottom: 20px;
+}
+.animationpink {
+  color: #ff95f4;
+}
+
+.animationbillede_tekst_1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.animationbillede_tekst_1 p {
+  color: #ff95f4;
+  line-height: 1.5;
+  font-family: sans-serif;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.animationbillede_tekst_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.animationbillede_tekst_2 p {
+  color: #ff95f4;
+  line-height: 1.5;
+  font-family: sans-serif;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+/*indhold*/
+.indholdtekst_1 h1 {
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  font-size: 30px;
+  color: #efe4bc;
+}
+
+.videosite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videosite h1 {
+  font-family: "Philosopher", sans-serif;
+  color: #efe4bc;
+  padding: 20px;
+}
+
+.videosite p {
+  color: #ff95f4;
+  line-height: 1.5;
+  font-family: sans-serif;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.virksomhedsite h1 {
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "Philosopher", sans-serif;
+  font-size: 30px;
+  color: #efe4bc;
+}
+.virksomhedsite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.virksomhedsite p {
+  color: #ff95f4;
+  line-height: 1.5;
+  font-family: sans-serif;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.indholdgrid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.indholdgrid p {
+  color: #ff95f4;
+  line-height: 1.5;
+  font-family: sans-serif;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+  /*web*/
+
+  .billede_1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .html_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .html_1 .tekst_right {
+    grid-column: 2/3;
+
+    margin-left: 80px;
+  }
+
+  .html_1 h1,
+  .css_1 h1,
+  .html_2 h1,
+  .css_2 h1 {
+    text-align: start;
+    padding: 20px;
+  }
+
+  .mobilhtml {
+    grid-column: 1/2;
+  }
+
+  .css_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 50px;
+  }
+
+  .css_1 .tekst_left {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .css_1 .mobilcss {
+    grid-column: 2/3;
+  }
+
+  .html_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .css_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .html_2 .tekst_left {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .css_2 .tekst_right {
+    grid-column: 2/3;
+  }
+  .studiecss {
+    grid-row: 1/2;
+  }
+
+  .studiehtml {
+    grid-column: 2/3;
+  }
+  /*ux*/
+
+  .uxbillede_1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .uxtekst_3 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .uxtekst_31,
+  .uxtekst_32 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .uxbillede_2 p {
+    text-align: center;
+  }
+
+  .uxtekst_2 p {
+    text-align: center;
+  }
+
+  /*animation*/
+
+  .animationbillede_tekst_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .animationbillede_tekst_1 img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .animationbillede_tekst_1 p {
+    grid-column: 2;
+  }
+
+  .animationbillede_tekst_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .animationbilledetekst_2 p {
+    grid-column: 1;
+  }
+
+  .animationbillede_tekst_2 img {
+    grid-column: 2;
+  }
+
+  /*indhold*/
+
+  .indholdgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .hjemmeside {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .p1 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .p2 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .redesign {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}

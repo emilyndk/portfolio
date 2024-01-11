@@ -1,0 +1,54 @@
+html {
+  background-color: #4d064a;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.billede {
+  width: 300px;
+  height: auto;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tekst {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Philosopher", sans-serif;
+  color: #ff95f4;
+}
+.lidt {
+  color: #efe4bc;
+}
+
+p {
+  font-family: sans-serif;
+  color: #efe4bc;
+  line-height: 2;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+  }
+
+  .tekst {
+    align-self: start;
+    padding: 0;
+    padding-top: 10px;
+    text-align: start;
+  }
+  .billede {
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+  }
+}

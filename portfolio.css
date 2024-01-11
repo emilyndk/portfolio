@@ -1,0 +1,28 @@
+html {
+  background-color: #4d064a;
+}
+
+ul :nth-child(2),
+ul :nth-child(3),
+ul :nth-child(4),
+ul :nth-child(5) {
+  color: #ff95f4;
+}
+
+h1 {
+  color: #ff95f4;
+  font-family: "Philosopher", sans-serif;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 span {
+  color: #efe4bc;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 150px;
+  }
+}

@@ -1,0 +1,51 @@
+html {
+  background-color: #21064d;
+}
+
+h1 {
+  font-family: "Philosopher", sans-serif;
+  color: #ff95f4;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 200px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 50px;
+  padding-left: 20px;
+}
+
+.emily,
+.xiong,
+p {
+  color: #efe4bc;
+}
+
+p,
+a {
+  font-family: sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+p {
+  grid-column: 1;
+  text-align: center;
+  font-size: 30px;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    text-align: start;
+    padding-left: 10px;
+    font-size: 70px;
+  }
+
+  p {
+    grid-column: 2;
+    align-self: end;
+    padding-bottom: 40px;
+  }
+}

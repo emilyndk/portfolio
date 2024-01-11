@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+nav {
+  background-color: #efe4bc;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #21064d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+}
